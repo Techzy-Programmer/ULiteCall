@@ -236,7 +236,7 @@ namespace UClient.UIDesign
 
                             Recorder = new WaveInEvent
                             {
-                                DeviceNumber = WaveIn.DeviceCount - 1, // [To-Do]
+                                DeviceNumber = WaveIn.DeviceCount - 1, // [To-Do] use user settings here
                                 BufferMilliseconds = 100,
                                 WaveFormat = WaveForm,
                             };
